@@ -1,0 +1,41 @@
+ /* make 1 rem to be 10 px for default font-size of 16px
+    10px = 16px * 0.625 */
+
+/* html { 
+  font-size:62.5%;
+ }  */
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+/* traversy color #DF292D */
+
+:root {
+  --name-color: #DF292D;
+  --bottom-footer: calc(100vh - 3rem);
+  --black-color: #000;
+  --white-color: #fff;
+}
+
+*,
+*::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
