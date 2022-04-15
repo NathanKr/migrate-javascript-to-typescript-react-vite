@@ -1,11 +1,14 @@
 import "./Mentoring.css";
+import { Helmet } from "react-helmet";
+
+
 const codeReviewIcon = "/icons/code-review.png";
 const internetIcon = "/icons/internet.png";
 const manualIcon = "/icons/manual.png";
 const partnershipHandshakeIcon = "/icons/partnership-handshake.png";
 const professionalIcon = "/icons/professional.png";
 const qaIcon = "/icons/qa.png";
-import { Helmet } from "react-helmet";
+
 
 const Mentoring = () => {
   return (

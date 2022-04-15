@@ -5,12 +5,12 @@ import {
   testimonial_category_organization,
 } from "../logic/testimonialCategories";
 import useFetch from "../hooks/useFetch";
-import ITestimonial from "../interfaces/ITestimonial";
+import ITestemonial from "../Interfaces/ITestemonial";
 
 
 
 const Testimonials = () => {
-  const array : ITestimonial[] = useFetch("./data/testemonials.json") ?? [];
+  const array : ITestemonial[] = useFetch("./data/testemonials.json") ?? [];
 
   const items = array.map((item, index) => {
     let elem;

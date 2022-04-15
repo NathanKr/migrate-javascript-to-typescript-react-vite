@@ -1,5 +1,6 @@
 import "./CoursesData.css";
-const coursesPagePicbootcamp = '/images/coursesPage-pic.jpg'
+
+const coursesPagePicbootcamp = "/images/coursesPage-pic.jpg";
 const deployAppImg = "/images/deploy-app-img.png";
 const learnReact = "/images/learn-react.png";
 const reactHooks = "/images/react-hooks-img.png";

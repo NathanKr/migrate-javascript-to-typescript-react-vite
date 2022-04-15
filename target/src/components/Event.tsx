@@ -1,6 +1,7 @@
-import { FC } from "react";
-import { IEvent } from "../interfaces/IEvent";
 import "./Event.css";
+import { FC } from "react";
+import IEvent from "../Interfaces/IEvent";
+
 const eventPagePic = "/images/eventPage-pic.jpg";
 
 

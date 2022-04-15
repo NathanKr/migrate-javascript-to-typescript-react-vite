@@ -1,7 +1,7 @@
 import "./About.css";
-const nathanProfile = "/images/nathan-profile.jpg";
 import { Helmet } from "react-helmet";
 
+const nathanProfile = "/images/nathan-profile.jpg";
 const nathanStandPic = "/images/nathan-stand-pic.png";
 const nathanStandPic2 = "/images/nathan-stand-peoples.png";
 const present = "/images/present.jpeg";

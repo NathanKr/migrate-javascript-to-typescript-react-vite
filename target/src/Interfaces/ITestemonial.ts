@@ -1,4 +1,4 @@
-export default interface ITestimonial{
+export default interface ITestemonial{
     testimonial_category:string;
     img_src:string;
     name:string;
@@ -6,4 +6,3 @@ export default interface ITestimonial{
     desc?:string;
     href?:string;
 }
-

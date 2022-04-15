@@ -60,7 +60,6 @@ Event</li>
 <li>fix import image : put in public and replace import with constant ??</li>
 <li>add interfaces directory for IEvent ITestimonial json (make it much more understood)</li>
 <li>remove serviceWorker - it was not not needed also in source</li>
-<li>rename index.tsx to main.tsx</li>
 <li>fix const root = ReactDOM.createRoot( document.getElementById('root')); // >= ver 18</li>
 <li>rename index.html in the target to _index.html</li>
 <li>copy index.html from source to target and update
@@ -68,7 +67,7 @@ Event</li>
 ```html
    <script type="module" src="/src/index.jsx"></script>
         to
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/index.tsx"></script>
 ```
 
 </li>

@@ -12,7 +12,7 @@ import "./Top.css";
 import { Navbar, Nav } from "react-bootstrap";
 
 const Top = () => {
-  const [navExpended, setNavExpended] = useState<boolean | undefined>(false);
+  const [navExpended, setNavExpended] = useState(false);
 
   return (
     <div className="Top">
@@ -25,8 +25,7 @@ const Top = () => {
               </h2>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" 
-            // onClick={() => setNavExpended(navExpended ? false : "expanded")}
-            onClick={() => setNavExpended(navExpended ? false : undefined)}
+            onClick={() => setNavExpended(navExpended ? false : true)}
             />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto"></Nav>

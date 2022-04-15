@@ -1,12 +1,12 @@
-import  { useState, useEffect } from "react";
-import { IEvent } from "../interfaces/IEvent";
+import { useState, useEffect } from "react";
+import IEvent from "../Interfaces/IEvent";
 import "./EventsSlide.css";
 
 const EventsSlide = () => {
-  const [EventsSildeArray, setEventsSildeArray] = useState<IEvent[]>([]);
+  const [EventsSildeArray, setEventsSildeArray] = useState<IEvent []>([]);
   const eventsSlideJSON = "./data/eventSlide.json";
 
-  const handleSetEventSlideArray = (dataFetch : IEvent[]) => {
+  const handleSetEventSlideArray = (dataFetch : IEvent []) => {
     setEventsSildeArray(dataFetch);
   };
 

@@ -2,7 +2,7 @@ import Event from "./Event";
 import { Helmet } from "react-helmet";
 import "./Events.css";
 import useFetch from "../hooks/useFetch";
-import { IEvent } from "../interfaces/IEvent";
+import IEvent from "../Interfaces/IEvent";
 
 const Events = () => {
   const events : IEvent [] = useFetch("./data/eventSlide.json") ?? [];

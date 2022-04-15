@@ -1,4 +1,5 @@
 import "./Footer.css";
+
 const udemy = "/icons/udemy-icon.png";
 const github = "/icons/github.png";
 const youtube = "/icons/youtube.png";

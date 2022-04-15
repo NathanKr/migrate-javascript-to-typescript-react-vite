@@ -1,6 +1,8 @@
 import "./Contact.css";
-const mailIcon = "/icons/mail.png";
 import { Helmet } from "react-helmet";
+
+const mailIcon =  "/icons/mail.png";
+
 
 const Contact = () => {
   return (
