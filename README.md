@@ -57,7 +57,7 @@ fix missing packages types
 <li>fix components types using : interface , FC and generics 
 ClickedTestimonial
 Event</li>
-<li>fix import image : put in public and replace import with constant ??</li>
+<li>fix import image : put in public and replace import with constant ??</li>git ta
 <li>add interfaces directory for IEvent ITestimonial json (make it much more understood)</li>
 <li>remove serviceWorker - it was not not needed also in source</li>
 <li>fix const root = ReactDOM.createRoot( document.getElementById('root')); // >= ver 18</li>
